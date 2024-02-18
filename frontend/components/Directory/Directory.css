@@ -1,0 +1,45 @@
+.directory-menu span img{
+    width: 50%;
+    cursor: pointer;
+}
+.directory-menu span{
+    font-size: 20px;
+}
+.directory-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 3%;
+    /* text-align: center; */
+    border-bottom: 1px solid #e4e3e3;
+}
+.directory{
+    border: 1px solid #e4e3e3;
+    width: 22%;
+}
+.team-card img{
+    width: 2vmax;
+    margin: 0 1vmax 0 0;
+}
+.team-card{
+    display: flex;
+    /* justify-content: center; */
+    margin: 5% 0 0 5%;
+    align-items: center;
+}
+.team-card-detail{
+    display: flex;
+    flex-direction: column;
+}
+.team-member{
+    margin: 8% 0 0 6%;
+    height: 40%;
+    /* border-bottom: 2px solid red; */
+    overflow: auto;
+}
+.files{
+    margin: 8% 0 0 6%;
+    height: 35%;
+    /* border-bottom: 2px solid red; */
+    overflow: auto;
+}
